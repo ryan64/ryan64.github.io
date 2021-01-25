@@ -35,7 +35,7 @@
 
 // Define base and accent colors
 // $base-color: #3498db;
-$base-color: #4DD0E1;
+$base-color: #6c7678;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -84,6 +84,8 @@ $text: #74808a;
     ----- 3. Global Styles -----
     ----------------------------
 */
+
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -355,6 +357,12 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+
+    img {
+      border-radius: 50%;
+      height: 30%;
+      width: 30%;
+    }
 }
 
 #lead-content {
